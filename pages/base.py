@@ -110,7 +110,7 @@ class WebPage(object):
 
     def click_on_coordinates(self, x_offset=None, y_offset=None):
 
-        ActionChains(self._web_driver).move_by_offset(x_offset, y_offset).context_click().perform()
+        ActionChains(self._web_driver).move_by_offset(x_offset, y_offset).click().perform()
         time.sleep(2)
 
     def wait_page_loaded(self, timeout=60, check_js_complete=True,

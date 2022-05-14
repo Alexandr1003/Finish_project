@@ -8,7 +8,7 @@
 
 [pages/elements.py](pages/elements.py) содержит вспомогательный класс для определения веб-элементов на веб-страницах.
 
-[tests/test_smoke.py](test/test_smoke.py) содержит несколько тестов для интернет магазина Стройландия (https://market.yandex.ru/)
+[tests/test_smoke.py](tests/test_smoke.py) содержит несколько тестов для интернет магазина Стройландия (https://market.yandex.ru/)
 
 
 Как запускать тесты
